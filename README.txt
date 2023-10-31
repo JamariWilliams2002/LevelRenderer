@@ -1,3 +1,5 @@
+Assets by Quaternius: https://quaternius.com/index.html
+
 ---CONTROLS---
 Up and Down-> Left Shift and Space
 Left, Right, In, Out-> WASD
