@@ -1,0 +1,10 @@
+^C:\USERS\JAMWI\SOURCE\REPOS\CODEFORSCHOOL\PROJECT AND PORTFOLIO IV\LEVEL RENDERER\BUILD\CMAKEFILES\39BABF80F6F17F7AE87315E05B339ABF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jamwi/source/repos/CodeForSchool/Project and Portfolio IV/Level Renderer" "-BC:/Users/jamwi/source/repos/CodeForSchool/Project and Portfolio IV/Level Renderer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/jamwi/source/repos/CodeForSchool/Project and Portfolio IV/Level Renderer/build/Assignment_2_D3D12.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
