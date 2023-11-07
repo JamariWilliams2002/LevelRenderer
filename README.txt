@@ -11,3 +11,9 @@ Swap Levels-> F1
 
 ---NOTE---
 The Executable must be in the /build folder or level swapping will not work
+
+---BUILD INSTRUCTIONS---
+Requires Visual Studio, CMake, and WindowsSDK
+1. Open the directory containing this document in Windows Explorer and select the path bar at the top.
+2. Type "cmd" into the bar and a command prompt should open. Type: cmake -S ./ -B ./build.
+3. This should generate a solution inside a new folder. Open it and set it as your startup project.
