@@ -29,11 +29,11 @@ std::string ShaderAsString(const char* shaderFilePath)
 		std::cout << "ERROR: Shader Source File "" << shaderFilePath << "" Not Found!" << std::endl;
 	return output;
 }
-std::string VS_shaderString = ShaderAsString("../VertexShader.hlsl");
-std::string PS_shaderString = ShaderAsString("../PixelShader.hlsl");
-std::string GreyscalePS_shd = ShaderAsString("../GreyScalePixelShader.hlsl");
-std::string GS_shaderString = ShaderAsString("../GeometryShader.hlsl");
-std::string PointVSstring = ShaderAsString("../PointVertexShader.hlsl");
+std::string VS_shaderString = ShaderAsString("../Shaders/VertexShader.hlsl");
+std::string PS_shaderString = ShaderAsString("../Shaders/PixelShader.hlsl");
+std::string GreyscalePS_shd = ShaderAsString("../Shaders/GreyScalePixelShader.hlsl");
+std::string GS_shaderString = ShaderAsString("../Shaders/GeometryShader.hlsl");
+std::string PointVSstring = ShaderAsString("../Shaders/PointVertexShader.hlsl");
 
 // TODO: Part 1b
 // Simple Vertex Shader
